@@ -1,0 +1,198 @@
+digraph colors {
+graph [overlap = false]
+rankdir=LR;
+node [style = filled, color = grey, label="", shape = circle]
+CoBNavigationPanelCommon_xaml[shape = rectangle, label="CoBNavigationPanelCommon.xaml"]
+TabItemSelectedHotBackgroundBrush [rank = 2, fillcolor = "#6EBB1F"]
+TabItemDisabledBorderBrush [rank = 2, fillcolor = "#C9C7BA"]
+Application_Brush_TabControl_LeftNavigation_Default [rank = 2, fillcolor = "#005689"]
+Application_Brush_TabControl_LeftNavigation_HeaderPannelBorder [rank = 2, fillcolor = "#DAD9DA"]
+Application_Brush_TabControl_LeftNavigation_HeaderPannelBackground [rank = 2, fillcolor = "#F8F9FA"]
+TabControlNormalBorderBrush [rank = 2, fillcolor = "#8C8E94"]
+TabItemDisabledBackground [rank = 2, fillcolor = "#F4F4F4"]
+ExpanderSidePanel_xaml[shape = rectangle, label="ExpanderSidePanel.xaml"]
+Expander_MouseOver_Arrow_Stroke [rank = 2, fillcolor = "#222000"]
+Expander_Static_Arrow_Stroke [rank = 2, fillcolor = "#666000"]
+Expander_MouseOver_Circle_Stroke [rank = 2, fillcolor = "#3C7FB1"]
+Expander_Disabled_Arrow_Stroke [rank = 2, fillcolor = "#666000"]
+Expander_Pressed_Arrow_Stroke [rank = 2, fillcolor = "#003366"]
+Expander_Pressed_Circle_Stroke [rank = 2, fillcolor = "#526C7B"]
+Blue1Color [rank = 2, fillcolor = "#2C96D0"]
+Blue1SolidBrush [rank = 1, shape = diamond, fillcolor="#2C96D0"]
+ExpandableTabControl_xaml[shape = rectangle, label="ExpandableTabControl.xaml"]
+Expander_MouseOver_Arrow_Stroke [rank = 2, fillcolor = "#222000"]
+FwLightColor" A="#FF" R="#DC" G="#DC [rank = 2, fillcolor = "#DC"]
+Expander_Static_Arrow_Stroke [rank = 2, fillcolor = "#666000"]
+Expander_Pressed_Arrow_Stroke [rank = 2, fillcolor = "#003366"]
+FwLightestColor" A="#FF" R="#F5" G="#F5 [rank = 2, fillcolor = "#F5"]
+Expander_Disabled_Arrow_Stroke [rank = 2, fillcolor = "#666000"]
+StudioDialog_xaml[shape = rectangle, label="StudioDialog.xaml"]
+Studio_Brush_Dialog_CancellButton_MouseOver [rank = 2, fillcolor = "#333333"]
+Studio_Brush_Dialog_CancellButton_Click [rank = 2, fillcolor = "#DCDCDC"]
+Studio_Dialog_Button_ActiveBackgroundBrush [rank = 2, fillcolor = "#CDE6F7"]
+Studio_Dialog_BottomBachgroundBrush [rank = 2, fillcolor = "#E4E2E2"]
+CoBColorScheme_xaml[shape = rectangle, label="CoBColorScheme.xaml"]
+Blue2Color [rank = 2, fillcolor = "#005689"]
+FwLightColor" A="#FF" R="#DC" G="#DC [rank = 2, fillcolor = "#DC"]
+FwDarkColor" A="#FF" R="#75" G="#75 [rank = 2, fillcolor = "#75"]
+LightblueColor [rank = 2, fillcolor = "#E9F6FF"]
+PurpleColor [rank = 2, fillcolor = "#41297E"]
+FwLightestColor" A="#FF" R="#F5" G="#F5 [rank = 2, fillcolor = "#F5"]
+GrayColor [rank = 2, fillcolor = "#DCDCDC"]
+DarkgrayColor [rank = 2, fillcolor = "#333333"]
+DarkblueColor [rank = 2, fillcolor = "#253345"]
+TurquoiseColor [rank = 2, fillcolor = "#47A79C"]
+OrangeColor [rank = 2, fillcolor = "#D9522C"]
+GreenColor [rank = 2, fillcolor = "#4B8229"]
+Blue1Color [rank = 2, fillcolor = "#2C96D0"]
+RedColor [rank = 2, fillcolor = "#9F2426"]
+FwDarkestColor" A="#FF" R="#33" G="#33 [rank = 2, fillcolor = "#33"]
+LightgrayColor [rank = 2, fillcolor = "#F8F8F8"]
+GraySolidBrush [rank = 1, shape = diamond, fillcolor="#DCDCDC"]
+DarkblueSolidBrush [rank = 1, shape = diamond, fillcolor="#253345"]
+Blue2SolidBrush [rank = 1, shape = diamond, fillcolor="#005689"]
+DarkgraySolidBrush [rank = 1, shape = diamond, fillcolor="#333333"]
+LightgraySolidBrush [rank = 1, shape = diamond, fillcolor="#F8F8F8"]
+OrangeSolidBrush [rank = 1, shape = diamond, fillcolor="#D9522C"]
+GreenSolidBrush [rank = 1, shape = diamond, fillcolor="#4B8229"]
+LightblueSolidBrush [rank = 1, shape = diamond, fillcolor="#E9F6FF"]
+Blue1SolidBrush [rank = 1, shape = diamond, fillcolor="#2C96D0"]
+TurquoiseSolidBrush [rank = 1, shape = diamond, fillcolor="#47A79C"]
+PurpleSolidBrush [rank = 1, shape = diamond, fillcolor="#41297E"]
+ComboButton_xaml[shape = rectangle, label="ComboButton.xaml"]
+App_Color_Lightblue_ComboButton [rank = 2, fillcolor = "#CDE6F7"]
+App_Brush_Lightblue_ComboButton [rank = 1, shape = diamond, fillcolor="#CDE6F7"]
+;
+LetsGoPanel_xaml -> LetsGoPannelBackgroundBrush;
+LetsGoPannelBackgroundBrush -> FwLightestColor;
+LetsGoPanel_xaml -> LetsGoBorderBrush;
+LetsGoBorderBrush -> FwLightColor;
+CoBNavigationPanelCommon_xaml -> TabItemSelectedHotBackgroundBrush;
+CoBNavigationPanelCommon_xaml -> TabItemDisabledBorderBrush;
+CoBNavigationPanelCommon_xaml -> Application_Brush_TabControl_LeftNavigation_Default;
+CoBNavigationPanelCommon_xaml -> Application_Brush_TabControl_LeftNavigation_HeaderPannelBorder;
+CoBNavigationPanelCommon_xaml -> Application_Brush_TabControl_LeftNavigation_HeaderPannelBackground;
+CoBNavigationPanelCommon_xaml -> TabControlNormalBorderBrush;
+CoBNavigationPanelCommon_xaml -> TabItemDisabledBackground;
+CoBNavigationPanelCommon_xaml -> TabItemHotBackground;
+TabItemHotBackground -> Blue2Color;
+CoBNavigationPanelCommon_xaml -> TabItemSelectedBackground;
+TabItemSelectedBackground -> GreenColor;
+CoBNavigationPanelCommon_xaml -> TabItemHotBackgroundBrush;
+TabItemHotBackgroundBrush -> Blue1Color;
+CoBCheckBox_xaml -> CheckMarkBackgroundBrush;
+CheckMarkBackgroundBrush -> GreenColor;
+ExpanderSidePanel_xaml -> Expander_MouseOver_Arrow_Stroke;
+ExpanderSidePanel_xaml -> Expander_Static_Arrow_Stroke;
+ExpanderSidePanel_xaml -> Expander_MouseOver_Circle_Stroke;
+ExpanderSidePanel_xaml -> Expander_Disabled_Arrow_Stroke;
+ExpanderSidePanel_xaml -> Expander_Pressed_Arrow_Stroke;
+ExpanderSidePanel_xaml -> Expander_Pressed_Circle_Stroke;
+ExpanderSidePanel_xaml -> Blue1Color;
+ExpanderSidePanel_xaml -> Blue1SolidBrush;
+Blue1SolidBrush -> Blue1Color;
+CoBMenu_xaml -> MenuItemHoveringBacgroundBrush;
+MenuItemHoveringBacgroundBrush -> LightblueColor;
+CoBMenu_xaml -> MenuItemPopupBacgroundBrush;
+MenuItemPopupBacgroundBrush -> DarkblueColor;
+CoBMenu_xaml -> MenuItemBacgroundBrush;
+MenuItemBacgroundBrush -> GrayColor;
+CoBMenu_xaml -> MenuItemPressedBacgroundBrush;
+MenuItemPressedBacgroundBrush -> DarkblueColor;
+CoBMenu_xaml -> MenuItemHoveringForegroundBrush;
+MenuItemHoveringForegroundBrush -> DarkgrayColor;
+CoBExpander_xaml -> Expander_MouseOver_Arrow_Stroke;
+CoBExpander_xaml -> Expander_Static_Arrow_Stroke;
+CoBExpander_xaml -> Expander_MouseOver_Circle_Stroke;
+CoBExpander_xaml -> Expander_Pressed_Circle_Stroke;
+CoBExpander_xaml -> Expander_Pressed_Arrow_Stroke;
+CoBExpander_xaml -> Expander_Disabled_Arrow_Stroke;
+CoBScroll_xaml -> StandardBorderBrush;
+CoBScroll_xaml -> GlyphBrush;
+CoBScroll_xaml -> StandardBrush;
+CoBScroll_xaml -> HoverBrush;
+ExpandableTabControl_xaml -> Expander_MouseOver_Arrow_Stroke;
+ExpandableTabControl_xaml -> FwLightColor" A="#FF" R="#DC" G="#DC;
+ExpandableTabControl_xaml -> Expander_Static_Arrow_Stroke;
+ExpandableTabControl_xaml -> Expander_Pressed_Arrow_Stroke;
+ExpandableTabControl_xaml -> FwLightestColor" A="#FF" R="#F5" G="#F5;
+ExpandableTabControl_xaml -> Expander_Disabled_Arrow_Stroke;
+ExpandableTabControl_xaml -> LetsGoPannelBackgroundBrush;
+LetsGoPannelBackgroundBrush -> FwLightestColor;
+ExpandableTabControl_xaml -> LetsGoBorderBrush;
+LetsGoBorderBrush -> FwLightColor;
+StudioDialog_xaml -> Studio_Brush_Dialog_CancellButton_MouseOver;
+StudioDialog_xaml -> Studio_Brush_Dialog_CancellButton_Click;
+StudioDialog_xaml -> Studio_Dialog_Button_ActiveBackgroundBrush;
+StudioDialog_xaml -> Studio_Dialog_BottomBachgroundBrush;
+StudioDialog_xaml -> Studio_Brush_Dialog_CancellButton_Background;
+Studio_Brush_Dialog_CancellButton_Background -> FwDarkColor;
+CoBTabButton_xaml -> SolidOrangeBrush;
+SolidOrangeBrush -> OrangeColor;
+CoBTabControl_xaml -> MouseOverUnselectedTabItemBackgroundBrush;
+CoBTabControl_xaml -> DisabledBorderBrush;
+CoBTabControl_xaml -> SolidBorderBrush;
+CoBTabControl_xaml -> MouseOverUnselectedTabItemTextBrush;
+CoBTabControl_xaml -> TabItemBackgroundBrush;
+CoBTabControl_xaml -> WindowBackgroundBrush;
+CoBTabControl_xaml -> MouseOverUnselectedTabItemBorderBrush;
+CoBTabControl_xaml -> DisabledBackgroundBrush;
+CoBTabControl_xaml -> DisabledForegroundBrush;
+CoBTabControl_xaml -> SelectTabItemBorderBrush;
+CoBToolBar_xaml -> ToolBarMenuBorder;
+CoBToolBar_xaml -> ToolBarSubMenuBackground;
+CoBToolBar_xaml -> ToolBarButtonHover;
+CoBToolBar_xaml -> ToolBarGripper;
+CoBToolBar_xaml -> ToolBarHorizontalBackground;
+PositiveToggle_xaml -> Application_Brush_PositiveToggleDisabledBrush;
+PositiveToggle_xaml -> Application_Brush_PositiveToggleThumbActiveBrush;
+PositiveToggle_xaml -> Application_Brush_PositiveToggleNormalBorder;
+CoBColorScheme_xaml -> Blue2Color;
+CoBColorScheme_xaml -> FwLightColor" A="#FF" R="#DC" G="#DC;
+CoBColorScheme_xaml -> FwDarkColor" A="#FF" R="#75" G="#75;
+CoBColorScheme_xaml -> LightblueColor;
+CoBColorScheme_xaml -> PurpleColor;
+CoBColorScheme_xaml -> FwLightestColor" A="#FF" R="#F5" G="#F5;
+CoBColorScheme_xaml -> GrayColor;
+CoBColorScheme_xaml -> DarkgrayColor;
+CoBColorScheme_xaml -> DarkblueColor;
+CoBColorScheme_xaml -> TurquoiseColor;
+CoBColorScheme_xaml -> OrangeColor;
+CoBColorScheme_xaml -> GreenColor;
+CoBColorScheme_xaml -> Blue1Color;
+CoBColorScheme_xaml -> RedColor;
+CoBColorScheme_xaml -> FwDarkestColor" A="#FF" R="#33" G="#33;
+CoBColorScheme_xaml -> LightgrayColor;
+CoBColorScheme_xaml -> GraySolidBrush;
+GraySolidBrush -> GrayColor;
+CoBColorScheme_xaml -> DarkblueSolidBrush;
+DarkblueSolidBrush -> DarkblueColor;
+CoBColorScheme_xaml -> Blue2SolidBrush;
+Blue2SolidBrush -> Blue2Color;
+CoBColorScheme_xaml -> DarkgraySolidBrush;
+DarkgraySolidBrush -> DarkgrayColor;
+CoBColorScheme_xaml -> LightgraySolidBrush;
+LightgraySolidBrush -> LightgrayColor;
+CoBColorScheme_xaml -> RedSolidBrush;
+RedSolidBrush -> dColor;
+CoBColorScheme_xaml -> OrangeSolidBrush;
+OrangeSolidBrush -> OrangeColor;
+CoBColorScheme_xaml -> GreenSolidBrush;
+GreenSolidBrush -> GreenColor;
+CoBColorScheme_xaml -> LightblueSolidBrush;
+LightblueSolidBrush -> LightblueColor;
+CoBColorScheme_xaml -> Blue1SolidBrush;
+Blue1SolidBrush -> Blue1Color;
+CoBColorScheme_xaml -> TurquoiseSolidBrush;
+TurquoiseSolidBrush -> TurquoiseColor;
+CoBColorScheme_xaml -> PurpleSolidBrush;
+PurpleSolidBrush -> PurpleColor;
+MainTabControl_xaml -> SolidBorderBrush;
+CoBComboBox_xaml -> ComboBoxOpenBrush;
+ComboBoxOpenBrush -> GrayColor;
+CoBComboBox_xaml -> ComboBoxItemHoveringBrush;
+ComboBoxItemHoveringBrush -> LightblueColor;
+ComboButton_xaml -> App_Color_Lightblue_ComboButton;
+ComboButton_xaml -> App_Brush_Lightblue_ComboButton;
+App_Brush_Lightblue_ComboButton -> App_Color_Lightblue_ComboButton;
+}
