@@ -11,13 +11,13 @@ Abilities:
   - builds resource dictionaries and views relation
   
 Plans:
-    present persentage of dictionary resources usage
-    Detect when dictionary is newer used but merged
-    Detect if exists same colors but with different names
-    Detect resource name duplication
-    Present list of not merged dictionaries
-    Present list of newer used resources
-    Fuzzy search of resource
-    Fuzzy search of dictionary
-    Open file in VisualStudio
-    Present number of merges of the selected dictionary
+  - present persentage of dictionary resources usage
+  - Detect when dictionary is newer used but merged
+  - Detect if exists same colors but with different names
+  - Detect resource name duplication
+  - Present list of not merged dictionaries
+  - Present list of newer used resources
+  - Fuzzy search of resource
+  - Fuzzy search of dictionary
+  - Open file in VisualStudio
+  - Present number of merges of the selected dictionary
